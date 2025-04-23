@@ -35,12 +35,12 @@ Ensure Snowflake credentials and Google Sheets API credentials are correctly con
 start_time = time.time()
 
 engine = create_engine(URL(
-                    account = 'ldpwzbl-js06818',
-                    user = 'niraj2780',
-                    password = 'Crosslynx@12345',
-                    database = 'TECHTFQ',
-                    schema = 'public',
-                    warehouse = 'SNOWFLAKE_LEARNING_WH'))
+                    account = 'account_id',
+                    user = 'user_name',
+                    password = 'password@12345',
+                    database = 'database name',
+                    schema = 'schema name',
+                    warehouse = 'warehouse name'))
                 
 with engine.connect() as conn:
     try:
